@@ -39,5 +39,5 @@ cmake "%flags%" -DLLVM_TARGETS_TO_BUILD="all" -G "NMake Makefiles" ..
 cmake "%flags%" "-DLLVM_TARGETS_TO_BUILD=%allparams%" -G "NMake Makefiles" ..
 )
 
-nmake
+%1\nmake.exe
 
